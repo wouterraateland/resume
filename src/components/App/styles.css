@@ -13,8 +13,8 @@
   }
 }
 
-@media all and (min-width: 1081px) {
+@media all and (min-width: 811px) {
   .App {
-    font-size: 27px;
+    font-size: 20.25px;
   }
 }
