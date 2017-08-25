@@ -80,10 +80,18 @@ const Work = () => (
         org="Delft University of Technology" start="2015" end="2017"
         location="Delft, Netherlands"
         title="Teaching assistant">
-        <Project title="TW1090 - Inleiding Programmeren" />
-        <Project title="4051CALC1Y - Calculus 1" />
-        <Project title="TI1206 - Object-oriented programming" />
-        <Project title="TI1506 - Web and Database Technology" />
+        <Project
+          title="TW1090"
+          description="Inleiding Programmeren" />
+        <Project
+          title="4051CALC1Y"
+          description="Calculus 1" />
+        <Project
+          title="TI1206"
+          description="Object-oriented programming" />
+        <Project
+          title="TI1506"
+          description="Web and Database Technology" />
       </Entry>
     </div>
   </div>

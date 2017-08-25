@@ -25,6 +25,10 @@
   background-color: rgba(255, 255, 255, .8);
 }
 
+.Project.no-image .Project-meta {
+  top: 0;
+}
+
 .Project-title {
   margin: 0;
 
