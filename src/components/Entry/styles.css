@@ -3,6 +3,7 @@
   border-radius: .25em;
 }
 
+.Entry.has-image .Entry-description,
 .Entry.has-image .Entry-projects {
   padding-left: 4em;
 }
