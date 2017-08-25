@@ -2,6 +2,8 @@
   position: relative;
   overflow: hidden;
 
+  white-space: normal;
+
   display: inline-block;
   width: 9em;
   height: 6em;
@@ -13,23 +15,29 @@
   background-size: cover;
 }
 
-.Project-title {
+.Project-meta {
   position: absolute;
   left: 0;
   right: 0; bottom: 0;
 
   padding: .5em;
-  margin: 0;
 
-  color: #000;
   background-color: rgba(255, 255, 255, .8);
 }
 
-.Project.no-image {
-  width: auto;
-  height: 2em;
+.Project-title {
+  margin: 0;
+
+  color: #000;
 }
 
-.Project.no-image .Project-title {
-  position: relative;
+.Project-description {
+  margin: 0;
+
+  font-size: smaller;
+  color: #666;
+}
+
+.Project-title + .Project-description {
+  margin-top: 1em;
 }
