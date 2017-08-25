@@ -2,7 +2,6 @@ import React from 'react'
 import './styles.css'
 
 import Entry from 'components/Entry'
-import Project from 'components/Project'
 
 import pilsmeister from 'media/pilsmeister.png'
 import driebroek from 'media/driebroek.svg'
