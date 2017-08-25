@@ -1,1 +1,25 @@
-.Introduction {}
+.Contact-social {
+  display: block;
+  padding: 1em .5em 1em 2em;
+  margin-bottom: 1em;
+  border-radius: .25em;
+
+  background: no-repeat left .5em top 50%;
+  background-size: 1em;
+}
+
+@media screen {
+  .Contact-social {
+    background-color: #faf5eb;
+  }
+}
+
+.Contact-social.email { background-image: url('../../media/icons/email.svg'); }
+.Contact-social.telephone { background-image: url('../../media/icons/phone.svg'); }
+.Contact-social.website { background-image: url('../../media/icons/web.svg'); }
+.Contact-social.linkedin { background-image: url('../../media/icons/linkedin.svg'); }
+
+.Contact-social.email span {
+  font-size: .9em;
+  line-height: 1.111em;
+}
