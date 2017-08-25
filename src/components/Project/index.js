@@ -3,7 +3,7 @@ import './styles.css'
 
 const Project = ({ title, image, link }) => (
   <a
-    className="Project"
+    className={`Project${image ? `` : ` no-image`}`}
     href={link}
     target="_blank"
     style={{ backgroundImage: `url(${image})` }}>

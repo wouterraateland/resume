@@ -3,8 +3,17 @@
   border-radius: .25em;
 }
 
+.Entry.has-image .Entry-projects {
+  padding-left: 4em;
+}
+
 @media screen {
-  .Entry:nth-of-type(2n) {
+  .Entry:nth-of-type(2n + 1) {
     background-color: #faf5eb;
+  }
+
+  .Entry-projects {
+    white-space: nowrap;
+    overflow-x: auto;
   }
 }

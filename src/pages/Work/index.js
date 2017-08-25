@@ -28,22 +28,37 @@ const Work = () => (
           title="EPCA website"
           image={epca}
           link="http://epca.de" />
+        bv
+        juiceexpress
+        squareevents
       </Entry>
       <Entry
         image={wr}
         org="Wouter Raateland Webdesign" start="2014" end="now"
         location="Delft, Netherlands"
-        title="Freelance web developer" />
+        title="Freelance web developer">
+        ORAS
+        ReportFlip
+        Punch
+      </Entry>
       <Entry
         image={ch}
         org="W.I.S.V. 'Christiaan Huygens'" start="2016" end="2017"
         location="Delft, Netherlands"
-        title="Chairman of HackDelft" />
+        title="Chairman of HackDelft">
+
+
+      </Entry>
       <Entry
         image={tud}
         org="Delft University of Technology" start="2015" end="2017"
         location="Delft, Netherlands"
-        title="Teaching assistant" />
+        title="Teaching assistant">
+        <Project title="TW1090 - Inleiding Programmeren" />
+        <Project title="4051CALC1Y - Calculus 1" />
+        <Project title="TI1206 - Object-oriented programming" />
+        <Project title="TI1506 - Web and Database Technology" />
+      </Entry>
     </div>
   </div>
 )
