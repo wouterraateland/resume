@@ -1,0 +1,11 @@
+.Entry {
+  padding: .5em;
+  margin: 0 -.5em;
+  border-radius: .25em;
+}
+
+@media screen {
+  .Entry:nth-of-type(2n) {
+    background-color: #faf5eb;
+  }
+}

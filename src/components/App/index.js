@@ -1,17 +1,26 @@
 import React from 'react'
-import logo from 'media/logo.svg'
 
 import './styles.css'
 
+import Introduction from 'pages/Introduction'
+import Education from 'pages/Education'
+import Work from 'pages/Work'
+import Projects from 'pages/Projects'
+import Skills from 'pages/Skills'
+import Hobbies from 'pages/Hobbies'
+import Contact from 'pages/Contact'
+
 const App = () => (
   <div className="App">
-    <div className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <h2>Welcome to React</h2>
-    </div>
-    <p className="App-intro">
-      To get started, edit <code>src/App.js</code> and save to reload.
-    </p>
+    <Introduction
+      name="Wouter Raateland"
+      link="https://wouterraateland.github.io/resume"/>
+    <Education />
+    <Work />
+    <Projects />
+    <Skills />
+    <Hobbies />
+    <Contact />
   </div>
 )
 
