@@ -17,7 +17,7 @@ const Projects = () => (
       </div>
       <Entry
         image={driebroek}
-        org="Driebroek" start="2017" end="now"
+        org="Driebroek" start="2017" end="present"
         title="Clothing brand for Aladdin pants"
         description="Driebroek is my newest venture aiming to produce the best fitting Aladdin pants ever. Currently the first few are sold and I am working on an online infrastructure and presence of the company." />
       <Entry

@@ -17,7 +17,7 @@ const Education = () => (
       </div>
       <Entry
         image={tud}
-        org="Delft University of Technology" start="2015" end="now"
+        org="Delft University of Technology" start="2015" end="present"
         location="Delft, Netherlands"
         title="BSc. Computer Science" />
       <Entry

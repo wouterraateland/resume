@@ -4,6 +4,7 @@ import './styles.css'
 import Entry from 'components/Entry'
 import Project from 'components/Project'
 
+import sping from 'media/sping.png'
 import vs from 'media/vs.png'
 import wr from 'media/wr.png'
 import ch from 'media/ch.png'
@@ -16,6 +17,7 @@ import oras from 'media/projects/oras.png'
 import reportflip from 'media/projects/reportflip.png'
 import punch from 'media/projects/punch.png'
 import hackdelft from 'media/projects/hackdelft.png'
+import ioniq from 'media/projects/ioniq.jpg'
 
 const Work = () => (
   <div className="Work">
@@ -26,8 +28,20 @@ const Work = () => (
         </div>
       </div>
       <Entry
+        image={sping}
+        org="Sping B.V." start="2017" end="present"
+        location="Delft, Netherlands"
+        title="Developer">
+        <Project
+          title="IONIQ car sharing"
+          image={ioniq}
+          link="https://www.ioniqcarsharing.nl/" />
+        <Project
+          description="Car Sharing application for Hyundai. Responsible for the api, back-end and admin interface" />
+      </Entry>
+      <Entry
         image={vs}
-        org="Vlinderstorm" start={2015} end="now"
+        org="Vlinderstorm" start={2015} end="present"
         location="Amsterdam, Netherlands"
         title="Full stack web developer">
         <Project
@@ -47,7 +61,7 @@ const Work = () => (
       </Entry>
       <Entry
         image={wr}
-        org="Wouter Raateland Webdesign" start="2014" end="now"
+        org="Wouter Raateland Webdesign" start="2014" end="present"
         location="Delft, Netherlands"
         title="Freelance web developer">
         <Project

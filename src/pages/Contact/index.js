@@ -22,6 +22,7 @@ const Contact = () => (
         <div className="col-6">
           <a className="Contact-social linkedin" href="https://linkedin.com/in/wouterraateland">wouterraateland</a>
         </div>
+        <div className="center">Wouter Raateland <em>(17-06-1996 - Present)</em></div>
       </div>
     </div>
   </div>
