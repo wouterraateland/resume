@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 
 h2 {
-	margin-bottom: .5em;
+	margin: .75em 0 .25em;
 }
 
 a {
@@ -23,6 +23,12 @@ a {
 
 p, ul {
 	opacity: .7;
+}
+
+ul {
+	line-height: 1.2;
+	padding-left: 4em;
+	margin: .5em 0;
 }
 
 ::-webkit-input-placeholder {
