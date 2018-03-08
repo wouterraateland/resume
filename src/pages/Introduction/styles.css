@@ -1,11 +1,30 @@
-.Introduction {}
-
-.print-button {
-  cursor: pointer;
+.Introduction {
+  padding: 1em;
 }
 
-@media print {
-  .print-button {
-    display: none;
-  }
+.Introduction-avatar {
+  height: 7em;
+  margin: .7em 1em 1em 0;
+  border-radius: .5em;
+  float: left;
 }
+
+.Introduction h1 {
+  font-size: 1.8em;
+  margin: .5em 0;
+}
+
+.Contact-social {
+  display: block;
+  padding-left: 1.5em;
+  margin-bottom: .5em;
+  margin-left: 8em;
+
+  background: no-repeat left 0 top 50%;
+  background-size: 1em;
+}
+
+.Contact-social.email { background-image: url('../../media/icons/email.svg'); }
+.Contact-social.telephone { background-image: url('../../media/icons/phone.svg'); }
+.Contact-social.website { background-image: url('../../media/icons/web.svg'); }
+.Contact-social.linkedin { background-image: url('../../media/icons/linkedin.svg'); }

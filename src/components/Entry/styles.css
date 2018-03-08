@@ -1,6 +1,5 @@
 .Entry {
-  padding: .5em;
-  border-radius: .25em;
+  padding: .25em 0;
 }
 
 .Entry.has-image .Entry-description,
@@ -8,13 +7,15 @@
   padding-left: 4em;
 }
 
-@media screen {
-  .Entry:nth-of-type(2n + 1) {
-    background-color: #faf5eb;
-  }
+.Entry h3 { font-size: 1em; margin: .5em 0 .25em; }
+.Entry .tagline { margin-top: 0; opacity: 1; }
 
-  .Entry-projects {
-    white-space: nowrap;
-    overflow-x: auto;
-  }
+.Entry-description { line-height: 1.2; margin-bottom: .5em; }
+
+.Entry .period {
+  float: right;
+  font-size: .75em;
+  margin-top: 1em;
+
+  opacity: .7;
 }
