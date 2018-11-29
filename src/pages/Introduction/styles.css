@@ -4,9 +4,16 @@
 
 .Introduction-avatar {
   height: 7em;
+  padding: 6px;
   margin: .7em 1em 1em 0;
-  border-radius: .5em;
   float: left;
+
+  background-color: currentColor;
+}
+
+.Introduction-avatar,
+.Introduction-avatar img {
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
 
 .Introduction h1 {

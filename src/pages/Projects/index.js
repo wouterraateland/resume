@@ -14,8 +14,8 @@ const Projects = () => (
       image={ch}
       org="W.I.S.V. 'Christiaan Huygens'" start="2017" end="present"
       location="Delft, Netherlands"
-      title="Commissioner Promotion of Symposium Committee"
-      description="Responsible for our marketing and partially for the communication with our advisors." />
+      title="Commissioner Promotion of Symposium"
+      description="Responsible for marketing, online presence and communication with speakers and advisors." />
     <Entry
       image={driebroek}
       org="3broek" start="2017" end="2018"

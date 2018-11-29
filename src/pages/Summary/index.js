@@ -4,7 +4,7 @@ import './styles.css'
 const Summary = () => (
   <section className="Summary">
     <h2>Summary</h2>
-    <p>Enthousiastic software developer with +5 years of experience. Currently finishing my BSc. in Computer Science, working part-time and organising a healtcare symposium. Applying for <strong>Software engineer</strong></p>
+    <p>Enthousiastic software developer with +5 years of experience. Currently finishing my BSc. Computer Science with a thesis on abstract interpretation of Java, training for a 100km rowing marathon and organising a healtcare symposium.</p>
   </section>
 )
 

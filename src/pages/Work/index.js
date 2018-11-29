@@ -13,7 +13,7 @@ const Work = () => (
     <h2>Work experience</h2>
     <Entry
       image={sping}
-      org="Sping B.V." start="2017" end="present"
+      org="Sping B.V." start={2017} end={2018}
       location="Delft, Netherlands"
       title="Developer"
       description="Worked mostly on the Ioniq Car Sharing application for Hyundai running in Amsterdam, where I was responsible for the API, back-end and the admin interface." />
