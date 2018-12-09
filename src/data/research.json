@@ -1,0 +1,48 @@
+[
+  {
+    "bib": {
+      "author": "Vos, D, et al",
+      "title": "DEFenD: A Secure and Privacy-Preserving Decentralized System for Freight Declaration.",
+      "date": "2018",
+      "publication": {
+        "conference": "Proceedings of 1st ERCIM Blockchain Workshop 2018.",
+        "organisation": "European Society for Socially Embedded Technologies (EUSSET)",
+      }
+    },
+    "links": [
+      {
+        "label": "PDF",
+        "URL": "https://wouterraateland.github.io/resume/blob/master/attachments/articles/vos2018defend.pdf"
+      },
+      {
+        "label": "EUSSET",
+        "URL": "https://hdl.handle.net/20.500.12015/3164"
+      },
+      {
+        "label": "arXiv",
+        "URL": "https://arxiv.org/abs/1803.09257"
+      },
+    ]
+  },
+  {
+    "bib": {
+      "author": "Raateland, W",
+      "title": "Provably Sound Nullness Analysis of Java Code",
+      "date": "2018-07-03",
+      "publication": {
+        "conference": "TU Delft Repositories",
+        "organisation": null
+      }
+    },
+    "links": [
+      {
+        "label": "PDF",
+        "URL": "https://wouterraateland.github.io/resume/blob/master/attachments/articles/raateland2018nullness.pdf"
+      },
+      {
+        "label": "TUD",
+        "URL": "http://resolver.tudelft.nl/uuid:f700b5fa-286b-42b0-b397-fa28dea2977f"
+      }
+    ]
+  }
+]
