@@ -12,21 +12,26 @@ import {
   Work
 } from 'components/sections'
 
+import PrintButton from 'components/PrintButton'
+
 const App = () => {
   return (
-    <Paper>
-      <Introduction />
-      <Main>
-        <Column size={4}>
-          <Education />
-          <Activities />
-          <Links />
-        </Column>
-        <Column size={8}>
-          <Work />
-        </Column>
-      </Main>
-    </Paper>
+    <>
+      <Paper>
+        <Introduction />
+        <Main>
+          <Column size={4}>
+            <Education />
+            <Activities />
+            <Links />
+          </Column>
+          <Column size={8}>
+            <Work />
+          </Column>
+        </Main>
+      </Paper>
+      <PrintButton />
+    </>
   )
 }
 

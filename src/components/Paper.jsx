@@ -10,7 +10,7 @@ const Paper = styled.div`
   background-color: #fff;
 
   @media screen {
-    margin: 2em auto;
+    margin: 2em auto 8em;
     box-shadow: 0 .2em .5em #000c;
   }
 `
