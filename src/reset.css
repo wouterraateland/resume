@@ -1,5 +1,5 @@
 * {
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 *,
@@ -16,7 +16,7 @@ html {
 
 body {
 	margin: 0;
-	line-height: 1;
+	line-height: 1.20;
 }
 
 html,
