@@ -1,22 +1,31 @@
 import React from 'react'
+import styled from 'styled-components'
 
 import Section from './Section'
+import DateRange from 'components/DateRange'
 
-import links from 'data/links.json'
+import activities from 'data/activities.json'
 
-const Link = ({ label, content, url }) => (
+const Meta = styled.span`
+  color: #0009;
+`
+
+const Activity = ({ name, startDate, endDate, description }) => (
   <p>
-    <strong>{label}: </strong>
-    <a href={url}>{content}</a>
+    <strong>{name}</strong>
+    {' '}
+    <Meta>(<DateRange startDate={startDate} endDate={endDate} />)</Meta>
+    <br />
+    {description}
   </p>
 )
 
-const Links = () => (
+const Activities = () => (
   <Section
-    title="Links"
-    component={Link}
-    data={links}
+    title="Activities"
+    component={Activity}
+    data={activities}
   />
 )
 
-export default Links
+export default Activities

@@ -7,7 +7,7 @@ import links from 'data/links.json'
 
 const Link = ({ type, content, url }) => (
   <p>
-    <a href={url}>
+    <a href={url} target="_blank" rel="noopener noreferrer">
       <Icon icon={type} />
       {content}
     </a>

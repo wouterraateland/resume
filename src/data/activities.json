@@ -1,17 +1,22 @@
 [
   {
+    "name": "3broek",
+    "startDate": "2017-07-01",
+    "endDate": "2018-02-15",
+    "description": "Set up clothing brand for Aladdin pants. Created online infrastructure. Set up manufacturing. Sold some."
+  },
+  {
     "name": "DailyUi",
     "startDate": "2017-10-12",
     "endDate": "2017-12-15",
-    "description": "Designed and developed interactive user interfaces for 50 days straight using React."
+    "description": "Built 50 interactive user interfaces in 50 days using React."
   },
   {
     "name": "PassPort",
-    "startDate": ,
-    "description": "Blockchain app to detect container smuggling; 1st-place at
-World Port Hackathon; presented at several blockchain conferences; extended
-into 10-week project at TU Delft; paper published in EUSSET."
-  }
+    "startDate": "2016-09-02",
+    "endDate": "2017-07-03",
+    "description": "Blockchain app to detect container smuggling. 1st-place at World Port Hackathon. Presented at several blockchain conferences. Extended into 10-week project at TU Delft. Paper published in EUSSET."
+  },
   {
     "name": "Parkour Delft",
     "startDate": "2016-03-01",

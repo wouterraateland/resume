@@ -16,6 +16,7 @@ const Title = styled.h4`
 
 const Meta = styled.p`
   margin: 0;
+  color: #0009;
 `
 
 const Education = ({ institution, title, startDate, endDate,
@@ -23,7 +24,11 @@ const Education = ({ institution, title, startDate, endDate,
   <>
     <Institution>{institution}</Institution>
     <Title>{title} ({grade})</Title>
-    <Meta><DateRange startDate={startDate} endDate={endDate} /> | {location}</Meta>
+    <Meta>
+      <DateRange startDate={startDate} endDate={endDate} />
+      {' | '}
+      {location}
+    </Meta>
   </>
 )
 

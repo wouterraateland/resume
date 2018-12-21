@@ -16,7 +16,7 @@ const SectionTitle = styled.h2`
   writing-mode: vertical-lr;
   line-height: 1;
 
-  opacity: .7;
+  opacity: .5;
 `
 
 const Section = ({ component: Component, data, title }) => (
