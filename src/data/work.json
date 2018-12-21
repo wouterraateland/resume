@@ -1,0 +1,83 @@
+[
+  {
+    "organisation": "Your Gift Hunt",
+    "url": "https://yourgifthunt.com",
+    "startDate": "2018-12-01",
+    "endDate": null,
+    "location": "Delft, NL",
+    "title": "Founder",
+    "description": "Web & mobile app for creating scavenger hunts that transform giving a gift into a unique adventure created by you."
+  },
+  {
+    "organisation": "Raateland Digital",
+    "url": "https://wouterraateland.nl",
+    "startDate": "2014-10-01",
+    "endDate": null,
+    "location": "Delft, NL",
+    "title": "Freelance web developer",
+    "description": "Designed and developed websites such as oras.nl, reportflip.com and hartjegouda.nl as freelancer."
+  },
+  {
+    "organisation": "Hoffelijk Financieel N.V.",
+    "url": null,
+    "startDate": "2018-08-06",
+    "endDate": "2018-11-20",
+    "location": "Rotterdam, NL",
+    "title": "Developer",
+    "description": "Rebuilt and released a flagship web product using a modern stack (Laravel + Relay + React), including advanced statistics and modern design."
+  },
+  {
+    "organisation": "Care For the Future",
+    "url": "https://symposium.ch.tudelft.nl/2018",
+    "startDate": "2017-09-01",
+    "endDate": "2018-10-20",
+    "location": "Delft, NL",
+    "title": "Promotional affairs",
+    "description": "Organised the eight edition of the flagship symposium of W.I.S.V. 'Christiaan Huygens'. Responsible for marketing, online presence and communication with multiple speakers and advisors."
+  },
+  {
+    "organisation": "TU Delft",
+    "url": "https://github.com/svenkeidel/sturdy",
+    "startDate": "2018-04-24",
+    "endDate": "2018-07-03",
+    "location": "Delft, NL",
+    "title": "Research intern Computer Languages",
+    "description": "Built a provably sound nullness analysis for Jimple code as an abstract interpreter in Haskell and wrote a paper on it for my BSc graduation project."
+  },
+  {
+    "organisation": "Sping B.V.",
+    "url": null,
+    "startDate": "2017-09-01",
+    "endDate": "2018-04-18",
+    "location": "Delft, NL",
+    "title": "Developer",
+    "description": "Responsible for improving and maintaining the Laravel back-end and Vue.js admin interface for Ioniq Car Sharing."
+  },
+  {
+    "organisation": "Vlinderstorm",
+    "url": null,
+    "startDate": "2015-07-01",
+    "endDate": "2017-08-01",
+    "location": "Amsterdam, NL",
+    "title": "Full stack web developer",
+    "description": "Developed websites, webshops and web-based blockchain applications in close collaboration with both small and corporate clients."
+  },
+  {
+    "organisation": "HackDelft",
+    "url": "https://2017.hackdelft.nl/",
+    "startDate": "2016-09-01",
+    "endDate": "2017-05-06",
+    "location": "Delft, NL",
+    "title": "Co-Founder & Chairman",
+    "description": "Organised HackDelft, first edition of, TU Delft's hackathon. Responsible for team performance, overall organisation and online presence."
+  },
+  {
+    "organisation": "Delft University of Technology",
+    "url": null,
+    "startDate": "2015-09-01",
+    "endDate": "2017-04-01",
+    "location": "Delft, NL",
+    "title": "Teaching assistant",
+    "description": "Helped students with assignments and graded their assignments and exams for different courses including 'Inleiding Programmeren', 'Object-oriented programming' and 'Web and Database Technology'."
+  }
+]

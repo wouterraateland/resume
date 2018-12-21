@@ -1,0 +1,6 @@
+export { default as Activities } from './Activities'
+export { default as Education } from './Education'
+export { default as Introduction } from './Introduction'
+export { default as Links } from './Links'
+export { default as Skills } from './Skills'
+export { default as Work } from './Work'
