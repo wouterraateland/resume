@@ -1,23 +1,26 @@
 [
   {
-    "location": "Delft University of Technology(2015 - 2018)",
+    "institution": "Delft University of Technology",
+    "title": "BSc. Computer Science",
     "startDate": "2015-09-01",
     "endDate": "2018-07-14",
-    "title": "BSc. Computer Science",
-    "grade":  "8.2 GPA"
+    "location": "Delft, NL",
+    "grade":  "8.2 GPA - Cum Laude"
   },
   {
-    "location": "European Bartender School",
+    "institution": "European Bartender School",
+    "title": "Professional level bartender",
     "startDate": "2016-03-21",
     "endDate": "2016-04-14",
-    "title": "Professional level bartender",
+    "location": "Dublin, IE",
     "grade": "91%"
   },
   {
-    "location": "Delft University of Technology",
+    "institution": "Delft University of Technology",
+    "title": "BSc. Applied Mathematics, First year",
     "startDate": "2014-09-01",
     "endDate": "2015-07-01",
-    "title": "BSc. Applied Mathematics, First year",
+    "location": "Delft, NL",
     "grade": "8.3 GPA"
-  },
+  }
 ]

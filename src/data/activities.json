@@ -1,0 +1,21 @@
+[
+  {
+    "name": "DailyUi",
+    "startDate": "2017-10-12",
+    "endDate": "2017-12-15",
+    "description": "Designed and developed interactive user interfaces for 50 days straight using React."
+  },
+  {
+    "name": "PassPort",
+    "startDate": ,
+    "description": "Blockchain app to detect container smuggling; 1st-place at
+World Port Hackathon; presented at several blockchain conferences; extended
+into 10-week project at TU Delft; paper published in EUSSET."
+  }
+  {
+    "name": "Parkour Delft",
+    "startDate": "2016-03-01",
+    "endDate": "2016-10-01",
+    "description": "Set up and led parkour training for students for half a year in a gym in Delft."
+  }
+]
