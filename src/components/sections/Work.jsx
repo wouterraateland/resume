@@ -56,7 +56,7 @@ const Experience = ({ organisation, url, title, description,
 const Work = () => (
   <Section
     title="Industry & Research Experience"
-    description="Some titles link to more information..."
+    description="All titles link to more information!"
     component={Experience}
     data={work}
   />

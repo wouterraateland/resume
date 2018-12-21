@@ -19,7 +19,7 @@
   },
   {
     "organisation": "Hoffelijk Financieel N.V.",
-    "url": null,
+    "url": "https://www.hoffelijkgroep.nl",
     "startDate": "2018-08-06",
     "endDate": "2018-11-20",
     "location": "Rotterdam, NL",
@@ -46,7 +46,7 @@
   },
   {
     "organisation": "Sping B.V.",
-    "url": null,
+    "url": "https://www.sping.nl",
     "startDate": "2017-09-01",
     "endDate": "2018-04-18",
     "location": "Delft, NL",
@@ -55,7 +55,7 @@
   },
   {
     "organisation": "Vlinderstorm",
-    "url": null,
+    "url": "https://www.vlinderstorm.com",
     "startDate": "2015-07-01",
     "endDate": "2017-08-01",
     "location": "Amsterdam, NL",
@@ -73,7 +73,7 @@
   },
   {
     "organisation": "Delft University of Technology",
-    "url": null,
+    "url": "https://www.tudelft.nl",
     "startDate": "2015-09-01",
     "endDate": "2017-04-01",
     "location": "Delft, NL",
