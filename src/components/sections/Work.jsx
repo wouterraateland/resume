@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import Section from './Section'
 import DateRange from 'components/DateRange'
+import Meta from 'components/Meta'
 
 import work from 'data/work.json'
 
@@ -21,20 +22,26 @@ const Title = styled.h4`
   line-height: 1.404;
 `
 
-const Meta = styled.p`
-  margin: 0;
-  color: #0009;
-`
-
 const Description = styled.p`
   margin-top: 0;
 `
 
-const Experience = ({ organisation, title, description,
+const Experience = ({ organisation, url, title, description,
                       startDate, endDate, location }) => (
   <>
     <Heading>
-      <Organisation>{organisation}</Organisation>
+      <Organisation>
+        {url
+          ? <a
+              href={url}
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              {organisation}
+            </a>
+          : organisation
+        }
+      </Organisation>
       <Title>&nbsp;|&nbsp;{title}</Title>
     </Heading>
     <Meta>
@@ -49,6 +56,7 @@ const Experience = ({ organisation, title, description,
 const Work = () => (
   <Section
     title="Industry & Research Experience"
+    description="Some titles link to more information..."
     component={Experience}
     data={work}
   />

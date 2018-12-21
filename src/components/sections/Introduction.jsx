@@ -5,7 +5,7 @@ import { Align } from 'components/ui'
 import { Email, Phone, Web } from 'components/icons'
 
 const Link = styled.a`
-  margin: 0 1em;
+  margin: 0 .25cm;
 `
 
 const Introduction = () => (
@@ -25,7 +25,6 @@ const Introduction = () => (
         wouterraateland.nl
       </Link>
     </p>
-    <hr />
   </Align.Center>
 )
 

@@ -1,6 +1,7 @@
 [
   {
     "organisation": "Your Gift Hunt",
+    "url": "https://yourgifthunt.com",
     "startDate": "2018-12-01",
     "endDate": null,
     "location": "Delft, NL",
@@ -9,6 +10,7 @@
   },
   {
     "organisation": "Raateland Digital",
+    "url": "https://wouterraateland.nl",
     "startDate": "2014-10-01",
     "endDate": null,
     "location": "Delft, NL",
@@ -17,6 +19,7 @@
   },
   {
     "organisation": "Hoffelijk Financieel N.V.",
+    "url": null,
     "startDate": "2018-08-06",
     "endDate": "2018-11-20",
     "location": "Rotterdam, NL",
@@ -25,6 +28,7 @@
   },
   {
     "organisation": "Care For the Future",
+    "url": "https://symposium.ch.tudelft.nl/2018",
     "startDate": "2017-09-01",
     "endDate": "2018-10-20",
     "location": "Delft, NL",
@@ -33,6 +37,7 @@
   },
   {
     "organisation": "TU Delft",
+    "url": "https://github.com/svenkeidel/sturdy",
     "startDate": "2018-04-24",
     "endDate": "2018-07-03",
     "location": "Delft, NL",
@@ -41,6 +46,7 @@
   },
   {
     "organisation": "Sping B.V.",
+    "url": null,
     "startDate": "2017-09-01",
     "endDate": "2018-04-18",
     "location": "Delft, NL",
@@ -49,6 +55,7 @@
   },
   {
     "organisation": "Vlinderstorm",
+    "url": null,
     "startDate": "2015-07-01",
     "endDate": "2017-08-01",
     "location": "Amsterdam, NL",
@@ -57,6 +64,7 @@
   },
   {
     "organisation": "HackDelft",
+    "url": "https://2017.hackdelft.nl/",
     "startDate": "2016-09-01",
     "endDate": "2017-05-06",
     "location": "Delft, NL",
@@ -65,6 +73,7 @@
   },
   {
     "organisation": "Delft University of Technology",
+    "url": null,
     "startDate": "2015-09-01",
     "endDate": "2017-04-01",
     "location": "Delft, NL",

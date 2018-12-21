@@ -19,9 +19,15 @@ const SectionTitle = styled.h2`
   opacity: .5;
 `
 
-const Section = ({ component: Component, data, title }) => (
+const SectionDescription = styled.p`
+`
+
+const Section = ({ component: Component, data, title, description }) => (
   <StyledSection>
     <SectionTitle>{title}</SectionTitle>
+    {description
+      ? <SectionDescription>{description}</SectionDescription>
+      : null}
     {Array.isArray(data)
       ? data.map((entity, i) => <Component key={i} {...entity} />)
       : <Component {...data} />

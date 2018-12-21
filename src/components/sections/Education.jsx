@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import Section from './Section'
 import DateRange from 'components/DateRange'
+import Meta from 'components/Meta'
 
 import education from 'data/education.json'
 
@@ -12,11 +13,6 @@ const Institution = styled.h3`
 
 const Title = styled.h4`
   margin: 0;
-`
-
-const Meta = styled.p`
-  margin: 0;
-  color: #0009;
 `
 
 const Education = ({ institution, title, startDate, endDate,

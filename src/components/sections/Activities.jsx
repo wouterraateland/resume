@@ -3,18 +3,18 @@ import styled from 'styled-components'
 
 import Section from './Section'
 import DateRange from 'components/DateRange'
+import Meta from 'components/Meta'
 
 import activities from 'data/activities.json'
 
-const Meta = styled.span`
-  color: #0009;
-`
-
-const Activity = ({ name, startDate, endDate, description }) => (
+const Activity = ({ url, name, startDate, endDate, description }) => (
   <p>
-    <strong>{name}</strong>
+    <strong>{url
+      ? <a href={url} target="blank" rel="noopener noreferrer">{name}</a>
+      : name
+    }</strong>
     {' '}
-    <Meta>(<DateRange startDate={startDate} endDate={endDate} />)</Meta>
+    <Meta as="span">(<DateRange startDate={startDate} endDate={endDate} />)</Meta>
     <br />
     {description}
   </p>
@@ -22,7 +22,8 @@ const Activity = ({ name, startDate, endDate, description }) => (
 
 const Activities = () => (
   <Section
-    title="Activities"
+    title="Personal Projects"
+    description="Some titles link to more information..."
     component={Activity}
     data={activities}
   />
